@@ -21,9 +21,9 @@ $main-bg-60: #f66733; //Main Border/HR Color
 $main-bg-25: #f66733; 
 
 //Secondary Color Variables
-$secondary: #ffffff;
-$secondary-50: lighten($secondary, 9%);
-$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary: #f66733;
+$secondary-50: $secondary;
+$secondary-25: $secondary; //Important Heading BG Color 
 
 //Gray Color Variables
 $gray: #3f3f3f; //Main Text Color
