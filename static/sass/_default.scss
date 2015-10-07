@@ -16,14 +16,15 @@ $light-color: #A5C1DD; //Selected Header BG Color, ie. calendar        ***Custom
 $bg-color: #919D79; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
-$main-bg: #f66733;
-$main-bg-60: #f66733; //Main Border/HR Color
+$main-bg: #f66733; //Change to Clemson Purple (44055E)
+$main-bg-60: #44055e; //Main Border/HR Color
 $main-bg-25: #f66733; 
 
 //Secondary Color Variables
 $secondary: #ffffff;
 $secondary-50: $secondary;
-$secondary-25: $secondary; //Important Heading BG Color 
+$secondary-25: $secondary; //Important Heading BG Color
+$secondary-bg: #f4f4f4;
 
 //Gray Color Variables
 $gray: #3f3f3f; //Main Text Color
@@ -78,8 +79,8 @@ $faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
 $faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
-$lighter-base-font-color: $black-80;
-$very-light-text: $gray-1;
+$lighter-base-font-color: $black;
+$very-light-text: $black;
 
 $link-color: $dark-color;
 $link-color-d1: $dark-color;
@@ -212,7 +213,7 @@ $video-thumb-url: '../themes/default/images/edx.png';
 // Override CSS
 //-----------------
 html {
-    background-color: $secondary-25 !important;
+    background-color: $secondary-bg !important;
 }
 
 //-----------------
