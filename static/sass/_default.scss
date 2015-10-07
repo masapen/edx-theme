@@ -120,7 +120,7 @@ $action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $gray-75;
+$action-primary-disabled-bg: $dark-color; //Switched to match primary focus color
 $action-prmary-disabled-fg: $gray-1;
 
 
