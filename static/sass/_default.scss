@@ -10,7 +10,7 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f66733;
+$main-color: #000000; //Shift from Clemson Orange #f66733
 $dark-color: #5B7782; //Link Color
 $light-color: #A5C1DD; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #919D79; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
@@ -32,7 +32,7 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #ffffff; //Block/Course BG Color
 $gray-2: #ffffff;
-$gray-1: #f4f4f4; //Main BG Color
+$gray-1: #ffffff; //Main BG Color
 $white: $gray-2;
 
 $black: #2e2e2e;
